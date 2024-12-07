@@ -1,0 +1,28 @@
+{
+  "version": "4",
+  "specifiers": {
+    "jsr:@std/dotenv@*": "0.225.2",
+    "npm:nimiq-rpc-client-ts@*": "0.4.3"
+  },
+  "jsr": {
+    "@std/dotenv@0.225.2": {
+      "integrity": "e2025dce4de6c7bca21dece8baddd4262b09d5187217e231b033e088e0c4dd23"
+    }
+  },
+  "npm": {
+    "nimiq-rpc-client-ts@0.4.3": {
+      "integrity": "sha512-bLeoBwe5jcF6NNdli0aBoXwHjb3qQQ3qmIPr3XAsl0zYGHrK62HSQqqjloIYV5F3QM76FffIcYIEnr9CtVdRMw==",
+      "dependencies": [
+        "ws"
+      ]
+    },
+    "ws@8.18.0": {
+      "integrity": "sha512-8VbfWfHLbbwu3+N6OKsOMpBdT4kXPDDB9cJk2bJ6mh9ucxdlnNvH1e+roYkKmN9Nxw2yjz7VzeO9oOz2zJ04Pw=="
+    }
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@std/assert@1"
+    ]
+  }
+}
